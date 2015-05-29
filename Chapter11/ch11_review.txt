@@ -1,0 +1,57 @@
+/* this is the answer for the chapter 11 review.*/
+/* the text book is "programming - principle and practice using c++ -" by bjarne stroustrup "*/
+/* i am a student. if you find any errors, please contact me! */
+
+1.Why is I/O tricky for a programmer?
+A.because people care a lot of apparently awkward details, and our programs exist to serve humans.
+
+2.What does the notation << hex do?
+A.tha floating format is sticks until using general
+
+3.What are hexadecimal numbers used for in computer science? why?
+A.hexadecimal is popular for outputting hardware-related in formation. the reason is that hexadecimal digit exactly represents a 4-bit value.
+
+4.Name some of the options you may want to implement for formatting integer output.
+A.general, scientific,fixed
+
+5.What is a manipulator?
+A.terms used to change the behavior of a stream are called manipulator.
+
+6.what is the prefix for decimal? for octal? for hexadecimal?
+A.none for dec. 0 for oct. 0x for hex.
+
+7.what is the default output format for floating-point values?
+A.decimal
+
+8.What is a field?
+A.the equivalent machanism for integer values is called fields.
+
+9.explain what setprecision() and setw() do.
+A.setprecision(): set the decimal precision to be used by output prerations. setw(): set the number of character to be used as the field width.
+
+10.What is the purpose of file open modes?
+A.deal with various situation.
+
+11.which of the following manipulators does not "stick" ?: hex, scientific, setprecision(), showbase, setw?
+A.setw
+
+12.what is the difference between character I/O and binary I/O?
+A.character representation is variable sized. binary representation is fixed sized. if we chose the binary, often more compact. but we give up our usual >> and << operators.
+
+13.give an examples of when it would probably be beneficial to use a binary file insted of text file.
+A.when we use a photograph or a piece of music. it is basically just a bag of bit.
+
+14.give two examples where a stringstream can be useful.
+A.it is useful for extracting numeric values from a string. of it is useful to filter undesirable characters out of our input.
+
+15.what is a file position?
+A.the place to select a specific place in a file for reading or writing.
+
+16.what happens if you position a file position beyond the end of file?
+A.there is next to no runtime error checking. it is undefined what happens.
+
+17.when would you prefer line oriented input to type-specific input?
+A.when we want to read the whole line. or when the definition of whitespace is not appropriate.
+
+18.what does isalnum(c) do?
+A.is 'c' a letter or a decimal digit?
