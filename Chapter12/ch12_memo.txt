@@ -1,4 +1,6 @@
 １２−１５章はグラフィックスライブラリFLTKを使用して問題を解く。
 サンプルコードはPPPの公式サイトからダウンロードできる。
+ヘッダーファイルには以下のようなものがある。
+fltk.h Graph.h/cpp GUI.h/cpp Point.h/cpp Simple_window.h/cpp Window.h/cpp std_lib_facilities.h
 １２章については、ライブラリのインストールやVisualStudioの環境設定がメインで、面白い練習問題も少ないので、コードをかなり省略した。
 
